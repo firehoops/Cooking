@@ -1,24 +1,53 @@
 html{
   background-color: white;
+
 }
 .nav-tabs{
-  background-color:#e9e3f2;
+  background-color:#e9e3f2 !important;
+  font-size: 145%;
+  font-family: Palantino;
 }
 .tab-content{
     background-color:#303136;
     color:black !important;
-    padding:5px
+    padding:5px;
+
 }
 .nav-tabs a{
-  color: black;
+  color: black !important;
+  z-index: 1;
 }
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover{
     background-color: #843cd1 !important;
     color: white !important;
+    z-index: 1;
 }
 .nav-tabs > li > a:hover{
   background-color: #51297c !important;
     border: medium none;
-    color:#fff;
+    color:#fff !important;
+    z-index: 1;
+}
+.tab-content{
+  background-color: white;
+  font-size: 20px;
+  z-index: 1;
+}
+
+.topBox{
+  background-color: #3a4468;
+  position: absolute;
+  height: 12.1%;
+  width: 100%;
+  left: 0%;
+  top: 0%;
+}
+.chef{
+  position: absolute;
+  top:-2.5%;
+  height: 18%;
+  left: 44.3%;
+
+
 }
