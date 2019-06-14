@@ -1,0 +1,24 @@
+html{
+  background-color: white;
+}
+.nav-tabs{
+  background-color:#e9e3f2;
+}
+.tab-content{
+    background-color:#303136;
+    color:black !important;
+    padding:5px
+}
+.nav-tabs a{
+  color: black;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover{
+    background-color: #843cd1 !important;
+    color: white !important;
+}
+.nav-tabs > li > a:hover{
+  background-color: #51297c !important;
+    border: medium none;
+    color:#fff;
+}
