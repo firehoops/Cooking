@@ -18,10 +18,13 @@
   });
 </script>
 </head>
+
 <body>
+
+  <!--Nav Bar Bootstrap classes -->
   <div class="container" style="margin-top:100px; width: 95%;" >
     <ul id="myTab" class="nav nav-tabs nav-justified">
-      <li class="nav-item">
+      <li class="nav active">
         <a href="#home" class = "nav-link active" data-toggle="tab">Home</a>
       </li>
       <li class="nav-item">
@@ -37,27 +40,52 @@
         <a href="#utensils" class = "nav-link" data-toggle="tab">Utensils</a>
       </li>
   </ul>
-  <div class="tab-content">
-    <div class="tab-pane fade show active" id = "home">
-      <p> Home tab content </p>
+
+ <!--Info on Click of Nav bar -->
+<div class="tab-content">
+    <div class="tab-pane fade in active" id = "home">
+      <h2 style="text-align:center" font-family: Palantino;>Chef Roop</h2>
+      <img src="img/tyler.jpeg" alt="picture of Chef Roop with an apron on" height="50%"; width="70%"; class="center">
+      <div class = "list">
+        <ul style="list-style: none">
+          <li>Cooking is a passion of mine and I enjoy cooking during the week and weekends.</li>
+          <li>Go check out my gallery and some classics I love to make!</li>
+        </ul>
+      </div>
     </div>
-    <div class="tab-pane fade show active" id = "gallery">
-      <p> Gallery tab content </p>
+  <div class="tab-pane fade show active" id = "gallery">
+    <div class="row">
+      <div class="column">
+        <img src="img/chickenRisoto.jpeg" alt = "chicken over risoto with fresh herbs and graded parmesean" style="width:100%">
+        <img src="img/cornSalsa.jpeg" alt="corn salsa over a halibut with a side of pretzel bread" style="width:100%">
+      </div>
+
+      <div class="column">
+        <img src="img/scallions.jpeg" alt="scallions over roasted corn with a cauliflower steak on the side" style="width:100%">
+        <img src="img/homeStir.jpeg" alt="homeade mango stir fry" style="width:100%">
+
+      </div>
     </div>
-    <div class="tab-pane fade show active" id = "classics">
+  </div>
+  <div class="tab-pane fade show active" id = "classics">
       <p> Classics tab content </p>
-    </div>
-    <div class="tab-pane fade show active" id = "newAdditions">
+  </div>
+
+  <div class="tab-pane fade show active" id = "newAdditions">
       <p> New Additions tab content </p>
-    </div>
-    <div class="tab-pane fade show active" id = "utensils">
+  </div>
+
+  <div class="tab-pane fade show active" id = "utensils">
       <p> Utensils tab content </p>
-    </div>
+  </div>
+
 </div>
+
+
 
   <div class="topBox"></div>
   <div style="text-align:center">
-    <img  src ="img/logo.png" class="chef"> </img>
+    <img  src ="img/Rlogo.jpeg" class="chef"> </img>
   </div>
 
 
