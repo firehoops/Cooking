@@ -60,4 +60,8 @@ html{
   font-family: Palantino;
   text-align: center;
 }
-.
+.classics{
+  text-align: center;
+  font-style: italic;
+  font-size: 22px;
+}
