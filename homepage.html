@@ -6,25 +6,24 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="css/homepage.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 <script>
-  // $(document).ready(function(){
-  //   $("#myTab a").click(function(e)){
-  //     e.preventDefault();
-  //     $(this).tab('show');
-  //   });
-  // });
+  $(document).ready(function(){
+    $("#myTab a").click(function(e)){
+      e.preventDefault();
+      $(this).tab('show');
+    });
+  });
 
-// <!-- Gallery JS -->
-  // var $ = function (id) {
-  // 			return document.getElementById(id);
-  // 		}
-  // function chick() {
-  //       var popup = document.getElementById("chick");
-  //       popup.classList.toggle("show");
-  //     }
+<!-- Gallery JS -->
+  var $ = function (id) {
+  			return document.getElementById(id);
+  		}
+  function chick() {
+        var popup = document.getElementById("chick");
+        popup.classList.toggle("show");
+      }
       var modal = document.getElementById("myModal");
 
 // Get the image and insert it inside the modal - use its "alt" text as a caption
@@ -131,29 +130,29 @@ span.onclick = function() {
               </div>
           </div>
         </div>
-        <div class="col-lg-4">
-          <div class="thumbnail">
-            <a href="img/cornSalsa.jpeg">
-            <img src="img/cornSalsa.jpeg" alt="corn salsa over a halibut with a side of pretzel bread" style="width:100%">
-            </a>
-              <div class="caption">
-                <p><b>Halibut with a Corn Salsa and Pretzel Bread:</b><br>
-                  <ul>
-                    <li>Halibut</li>
-                    <li>Corn Salsa <ul><li>Red Peppers</li><li>Black Beans</li><li>Corn</li><li>Olive Oil and Spices</li></ul></li>
-                    <li>Pretzel Bread</li>
-                  </ul>
 
-                </p>
-
-              </div>
-          </div>
-        </div>
 
       </div>
     </div>
     <div class="row">
-      <div class="container">
+      <div class="col-lg-4">
+        <div class="thumbnail">
+          <a href="img/cornSalsa.jpeg">
+          <img src="img/cornSalsa.jpeg" alt="corn salsa over a halibut with a side of pretzel bread" style="width:100%">
+          </a>
+            <div class="caption">
+              <p><b>Halibut with a Corn Salsa and Pretzel Bread:</b><br>
+                <ul>
+                  <li>Halibut</li>
+                  <li>Corn Salsa <ul><li>Red Peppers</li><li>Black Beans</li><li>Corn</li><li>Olive Oil and Spices</li></ul></li>
+                  <li>Pretzel Bread</li>
+                </ul>
+
+              </p>
+
+            </div>
+        </div>
+      </div>
         <div class="col-lg-4">
           <div class="thumbnail">
             <a href="img/homeStir.jpeg" target="_blank">
@@ -174,7 +173,7 @@ span.onclick = function() {
               </div>
           </div>
         </div>
-      </div>
+
     </div>
 
 </div>
@@ -184,7 +183,7 @@ span.onclick = function() {
       <h3 style="text-align:center;">Classics are everyday meals I would make during the week that take anywhere from 10-60 minutes to prep,cook, and serve!</h3>
 
       <div class="row" style="margin-top: 5%;">
-        <div class="container">
+
           <div class="col-lg-6">
             <div class="thumbnail">
               <a href="img/eggs.jpeg" target="_blank">
@@ -236,7 +235,7 @@ span.onclick = function() {
                 </div>
             </div>
           </div>
-        </div>
+
       </div>
 
 
