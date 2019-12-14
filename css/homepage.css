@@ -19,12 +19,12 @@ html{
 }
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover{
-    background-color: #843cd1 !important;
+    background-color: #003b8f !important;
     color: white !important;
     z-index: 1;
 }
 .nav-tabs > li > a:hover{
-  background-color: #51297c !important;
+  background-color: #71b4f0 !important;
     border: medium none;
     color:#fff !important;
     z-index: 1;
@@ -36,7 +36,7 @@ html{
 }
 
 .topBox{
-  background-color: #3a4468;
+  background-color: #4f94e8;
   position: absolute;
   height: 12.1%;
   width: 100%;
